@@ -1,7 +1,7 @@
 {
-  "name": "webpack-ts-template",
+  "name": "openbf-client",
   "version": "1.0.0",
-  "description": "webpack, babel, and typescript template",
+  "description": "openbf web client",
   "scripts": {
     "build": "npx webpack"
   },
@@ -20,7 +20,7 @@
     "babel-loader": "^8.1.0",
     "babel-plugin-transform-class-properties": "^6.24.1",
     "copy-webpack-plugin": "^6.2.1",
-    "webpack": "^4.44.2",
+    "webpack": "^5.47.1",
     "webpack-cli": "^3.3.12"
   },
   "private": true,
@@ -33,5 +33,12 @@
       "transform-class-properties",
       "@babel/plugin-transform-runtime"
     ]
+  },
+  "dependencies": {
+    "@enable3d/ammo-physics": "^0.22.0",
+    "@repcomm/exponent-ts": "^1.1.4",
+    "@repcomm/gameinput-ts": "^1.10.4",
+    "@repcomm/three.lookcamera": "^1.0.4",
+    "enable3d": "^0.22.0"
   }
 }
